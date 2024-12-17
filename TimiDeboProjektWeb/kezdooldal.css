@@ -1,0 +1,34 @@
+ul{
+    padding:0;
+    list-style: none;
+    background: lightskyblue;
+}
+ul li{
+    display: block;
+}
+ul li a{
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #1b1e21;
+    background: plum;
+}
+#balkep{
+    float: left;
+    margin-right: 700px;
+}
+#jobbkep{
+    float: right;
+    margin: 10px;
+}
+#bal1kep{
+    float: left;
+    margin-right: 3px;
+}
+#jobb1kep{
+    float: right;
+    margin: 0.5px;
+}
