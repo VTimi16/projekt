@@ -1,0 +1,49 @@
+body{
+    margin: 0px 20px;
+    background: #ecfffd;
+}
+h3
+{
+    color: cornflowerblue;
+}
+.H3{
+    color: cornflowerblue;
+}
+h1, h2, h3, h4 {
+    letter-spacing: 2px;
+    font-size: 50px;
+    text-align: center;
+}
+.rolunk{
+    width: 20%;
+    height: 20%;
+    border: 3px solid #1b1e21;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+.iras{
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.fejsor{
+    text-align: center;
+
+}
+.szoveg
+{
+    color: mediumpurple;
+    font-size: 100%;
+}
+.kep{
+    width: 1000px;
+    height: 1000px;
+}
