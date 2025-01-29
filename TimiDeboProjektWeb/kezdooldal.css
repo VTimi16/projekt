@@ -1,10 +1,10 @@
 ul{
     padding:0;
     list-style: none;
-    background: lightskyblue;
+    background: #e8b6d8;
 }
 ul li{
-    display: block;
+    display: inline-block;
 }
 ul li a{
     display: block;
@@ -31,4 +31,31 @@ ul li a:hover{
 #jobb1kep{
     float: right;
     margin: 0.5px;
+}
+#rolunk{
+    width: 25%;
+    height: 25%;
+    border: 3px solid #1b1e21;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.fejsor{
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    font-size: 50px;
+    text-align: center;
+    color: #a9a083;
+}
+.szoveg
+{
+    color: #958c6f;
+    background-color: #f9f0d1;
 }
