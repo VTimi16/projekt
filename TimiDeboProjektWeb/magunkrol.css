@@ -1,9 +1,12 @@
-body{s
+body{
     margin: 0px 20px;
     background: #ecfffd;
 }
 h3
 {
+    color: cornflowerblue;
+}
+.H3{
     color: cornflowerblue;
 }
 h1, h2, h3, h4 {
@@ -44,4 +47,3 @@ h1, h2, h3, h4 {
     width: 1000px;
     height: 1000px;
 }
-
