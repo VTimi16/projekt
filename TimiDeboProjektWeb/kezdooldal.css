@@ -50,7 +50,7 @@ ul li a:hover{
     text-align: center;
 }
 h1, h2, h3, h4 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: #a9a083;
 }
@@ -58,4 +58,48 @@ h1, h2, h3, h4 {
 {
     color: #958c6f;
     background-color: #f9f0d1;
+    text-align: center;
+    width: 400px;
+    height: 135px;
+    align-items: center;
+    margin: auto;
+}
+.szooveg
+{
+    color: #958c6f;
+    background-color: #f9f0d1;
+    text-align: center;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 0px;
+}
+.kep
+{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.gomb
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    border-radius: 100px;
+}
+.vissza
+{
+    border-style: solid;
+    outline: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
 }
