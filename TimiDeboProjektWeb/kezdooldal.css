@@ -1,10 +1,13 @@
 ul{
-    padding:0;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     list-style: none;
     background: #e8b6d8;
 }
 ul li{
     display: inline-block;
+
 }
 ul li a{
     display: block;
@@ -19,19 +22,24 @@ ul li a:hover{
 
 #balkep{
     float: left;
-    margin-right: 700px;
+    margin-right: 70px;
+    border: 3px solid #1b1e21;
+
 }
 #jobbkep{
     float: right;
     margin: 10px;
+    border: 3px solid #1b1e21;
 }
 #bal1kep{
     float: left;
     margin-right: 3px;
+    border: 3px solid #1b1e21;
 }
 #jobb1kep{
     float: right;
     margin: 0.5px;
+    border: 3px solid #1b1e21;
 }
 #rolunk{
     width: 25%;
@@ -45,41 +53,53 @@ ul li a:hover{
 .container {
     display: flex;
     justify-content: center;
-    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+
 }
-.fejsor{
-    text-align: center;
-}
-h1, h2, h3, h4 {
+h1{
+    margin: 8px;
+    padding: 8px;
     font-size: 40px;
+    text-align: center;
+    color: #a9a083;
+}
+h2, h3, h4
+{
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
     text-align: center;
     color: #a9a083;
 }
 .szoveg1
 {
-    color: #958c6f;
     background-color: #f9f0d1;
     text-align: center;
     width: 400px;
-    height: 135px;
+    height: 100px;
     align-items: center;
     margin: auto;
+    border: 3px solid #958c6f;
 }
 .szoveg
 {
-    color: #958c6f;
+    padding: 20px;
+    color:  #a9a083;
     background-color: #f9f0d1;
     text-align: center;
+    height: 320px;
     width: 400px;
-    height: 400px;
     align-items: center;
     margin: auto;
+    border: 3px solid #958c6f;
 }
 .szooveg
 {
     color: #958c6f;
     background-color: #f9f0d1;
     text-align: center;
+    border: 3px solid #958c6f;
     width: 800px;
     align-items: center;
     margin: auto;
@@ -98,12 +118,12 @@ h1, h2, h3, h4 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto;
-    display: flex;
+    display: inline-grid;
     width: 200px;
     height: 50px;
     position: relative;
     border-radius: 100px;
+    margin-right: 20px;
 }
 .vissza
 {

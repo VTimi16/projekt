@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Belépés</title>
+    <script type="text/javascript" src="navbar.js" id="nav"></script>
     <link   rel="stylesheet" href="kezdooldal.css">
 </head>
 <body style="background-color: #feffe2">
-    <a href="kezdooldal.html"><input type="button" value="Vissza a fooldalra" class="vissza"></a>
-    <a href="fiokletrehozasa.html"><input type="button" value="Meg nincs fiokom" class="vissza"></a>
-    <h3>Belépés:</h3>
-    <div class="szoveg1"><br>Email cím:<input type="text" name="email"><br>
-        <br>Felhasználó név:<input type="text" name="nev"><br>
-        <br>Jelszó:<input type="password" name="jelszo"><br></div>
+<h1>Fiókom</h1>
+<div id="navbar" class="container"></div>
+<script> document.getElementById("navbar").innerHTML=rendermenu('fiokom')</script>
 
-<br><br><input type="submit" value="Belépés" class="gomb">
+    <h3>Belépés:</h3>
+    <div class="szoveg1"><br><input placeholder="Felhasználónév vagy e-mail cím" type="text" name="email"><br>
+        <br><input placeholder="Jelszó" type="password" name="jelszo"><br></div>
+
+<br><br>
+<div class="container"><input type="submit" value="Belépés" class="gomb">
+<a href="fiokletrehozasa.html"><input type="button" value="Még nincs fiókom" class="gomb"></a></div>
 </body>
 </html>
