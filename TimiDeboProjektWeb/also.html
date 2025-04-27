@@ -11,27 +11,39 @@
 <h1>Alsó</h1>
 <div id="navbar" class="container"></div>
 <script> document.getElementById("navbar").innerHTML=rendermenu('also')</script>
-<img src="alsohatul.jpg" width="21%" height="20%" id="balkep">
+  <img src="alsohatul.jpg" width="21%" height="20%" id="balkep">
+  <div class="highlight" id="highlight-quadricepsbal"></div>
+  <div class="highlight" id="highlight-hamstring"></div>
+  <div class="highlight" id="highlight-gluteusszel"></div>
+<div class="highlight" id="highlight-gluteuskozep"></div>
+<div class="highlight" id="highlight-belso"></div>
+<div class="highlight" id="highlight-kulso"></div>
+<div class="highlight" id="highlight-vadli"></div>
+<div class="highlight" id="highlight-terdhajlito"></div>
 <img src="alulelol.jpg" width="20%" height="40%" id="jobbkep">
-<div class="szoveg">
-  Quadriceps (Comb elülső része)<br>
-  Hamstring (Comb hátsó része)<br>
-  Gluteus maximus (Fenékizom)<br>
-  Gluteus medius (Középső fenékizom)<br>
-  Gluteus minimus (Alsó fenékizom)<br>
-  Adductor izmok (Belső comb)<br>
-  Abductor izmok (Külső comb)<br>
-  Vádli (Gastrocnemius és Soleus)<br>
-  Tibialis anterior (Elülső lábszárizom)<br>
-  Peroneus izmok (Szárkapocs izmai)<br>
-  Flexorok (Térdhajlítók)<br>
-  Extensorok (Térdnyújtók)<br>
-  Popliteus (Térdhajlító izom)<br>
-  Iliopsoas (Csípőhajlító izmok)<br>
-  Rectus femoris (Comb középső része)<br>
-  Vastus lateralis (Comb külső része)<br>
-  Vastus medialis (Comb belső része)<br>
-  Vastus intermedius (Comb középső izom)<br></div>
 
+<div class="szoveg">
+  <span class="izom" data-izom="quadricepsbal">Quadriceps (Comb elülső része)</span><br>
+  <span class="izom" data-izom="hamstring">Hamstring (Comb hátsó része)</span><br>
+  <span class="izom" data-izom="gluteusszel">Gluteus maximus (Fenékizom)</span><br>
+  <span class="izom" data-izom="gluteuskozep">Gluteus medius (Középső fenékizom)</span><br>
+  <span class="izom" data-izom="belso">Adductor izmok (Belső comb)</span><br>
+  <span class="izom" data-izom="kulso">Abductor izmok (Külső comb)</span><br>
+  <span class="izom" data-izom="vadli">Vádli</span><br>
+  <span class="izom" data-izom="terdhajlito">Térdhajlítók</span><br>
+</div>
+
+<script>
+  document.querySelectorAll('.izom').forEach(function(elem) {
+    elem.addEventListener('mouseover', function() {
+      var izom = this.getAttribute('data-izom');
+      document.getElementById('highlight-' + izom).style.display = 'block';
+    });
+    elem.addEventListener('mouseout', function() {
+      var izom = this.getAttribute('data-izom');
+      document.getElementById('highlight-' + izom).style.display = 'none';
+    });
+  });
+</script>
 </body>
 </html>
