@@ -189,3 +189,64 @@ h2, h3, h4
     width: 40px;
     height: 90px;
 }
+#highlight-trapez {
+    top: 255px;
+    left: 1080px;
+    width: 178px;
+    height: 160px;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+#highlight-nyakizom {
+    top: 255px;
+    left: 140px;
+    width: 150px;
+    height: 35px;
+}
+#highlight-vall {
+    top: 290px;
+    left: 90px;
+    width: 50px;
+    height: 60px;
+}
+#highlight-mell {
+    top: 290px;
+    left: 140px;
+    width: 70px;
+    height: 75px;
+}
+#highlight-bicepsz {
+    top: 330px;
+    left: 90px;
+    width: 45px;
+    height: 80px;
+}
+#highlight-tricepsz {
+    top: 320px;
+    left: 1012px;
+    width: 75px;
+    height: 85px;
+}
+#highlight-hat {
+    top: 356px;
+    left: 1090px;
+    width: 158px;
+    height: 98px;
+}
+#highlight-romboid {
+    top: 300px;
+    left: 1070px;
+    width: 65px;
+    height: 58px;
+}
+#highlight-has {
+    top: 360px;
+    left: 138px;
+    width: 158px;
+    height: 150px;
+}
+#highlight-alkar{
+    top: 405px;
+    left: 1014px;
+    width: 44px;
+    height: 90px;
+}
