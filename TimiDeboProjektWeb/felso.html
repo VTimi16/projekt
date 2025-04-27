@@ -13,6 +13,7 @@
 <script> document.getElementById("navbar").innerHTML=rendermenu('felso')</script>
 <img src="felsohatul.jpg" width="27%" height="40%" id="jobb1kep">
 <div class="highlight" id="highlight-trapez"></div>
+<div class="highlight" id="highlight-nyakizom"></div>
 <div class="highlight" id="highlight-vall"></div>
 <div class="highlight" id="highlight-mell"></div>
 <div class="highlight" id="highlight-bicepsz"></div>
@@ -25,6 +26,7 @@
 
 <div class="szoveg">
   <span class="izom" data-izom="trapez">Trapézizom</span><br>
+  <span class="izom" data-izom="nyakizom">Nyakizom</span><br>
   <span class="izom" data-izom="vall">Vállizom (Deltoid)</span><br>
   <span class="izom" data-izom="mell">Mellizom (Pectoralis major és minor)</span><br>
   <span class="izom" data-izom="bicepsz">Bicepsz</span><br>
@@ -34,5 +36,18 @@
   <span class="izom" data-izom="has">Hasizmok (Core, Obliques)</span><br>
   <span class="izom" data-izom="alkar">Alkarizom</span><br>
 </div>
+
+<script>
+  document.querySelectorAll('.izom').forEach(function(elem) {
+    elem.addEventListener('mouseover', function() {
+      var izom = this.getAttribute('data-izom');
+      document.getElementById('highlight-' + izom).style.display = 'block';
+    });
+    elem.addEventListener('mouseout', function() {
+      var izom = this.getAttribute('data-izom');
+      document.getElementById('highlight-' + izom).style.display = 'none';
+    });
+  });
+</script>
 </body>
 </html>
